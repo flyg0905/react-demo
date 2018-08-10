@@ -1,0 +1,46 @@
+html {
+  font-size: 50px;
+}
+/* .clearfix::after{
+  content:'';
+  clear:both;
+  height:0;
+  visibility: hidden;
+  zoom:1
+} */
+#mobile_header{
+  flex:1;
+  background: #f6f6f6
+}
+#mobile_header header{
+  border-bottom: 1px solid #2db7f5
+}
+#mobile_header header img{
+  height: 40px;
+  margin-top: 0.12rem;
+  margin-left: 0.3rem;
+}
+#mobile_header header span{
+  font-size: 35px;
+  vertical-align: top;
+  padding-left: 10px;
+  color:#2db7f5
+}
+#mobile_header i{
+  float:right;
+  font-size: 0.5rem;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+  color:#2db7f5
+}
+
+.m_article{padding: 8px 0;border-bottom: 1px solid #ddd}
+.m_article a{color:#333}
+.m_article img{width:80px}
+
+.m_article_title{display: inline-block;}
+.m_article_channel{color: #ff4d4f;font-size: 12px}
+.m_article_time{color:#999;font-size: 12px;margin-left: 5px;}
+.TabPaneItem{padding:0 10px}
+.m_article_info{width:calc(100% - 100px);margin-left: 10px}
+.tabs_nav .ant-tabs-bar{margin-bottom: 2px}

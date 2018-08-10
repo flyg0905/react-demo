@@ -1,0 +1,28 @@
+ .l{
+   float: left;
+ }
+.logo{
+  align-items: center;
+  display: flex
+}
+.logo img{
+  width: 48px;
+  height:48px;
+}
+.logo span{
+  font-size: 24px;
+  margin-left: 5px;
+}
+.footer{
+  text-align: center;
+}
+.container{
+  margin-top: 15px;
+}
+.register>*{display:inline-block!important;}
+.leftContainer{width:280px;}
+.tabs_news{
+  margin-left: 10px;
+  width:438px
+}
+.imageblock{margin-right: 10px}
